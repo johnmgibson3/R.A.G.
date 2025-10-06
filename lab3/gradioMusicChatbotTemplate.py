@@ -150,7 +150,7 @@ with gr.Blocks(theme=gr.themes.Soft(), title="Music Recommendation Chatbot") as 
 # Launch the app
 if __name__ == "__main__":
     demo.launch(
-        share=False,  # Set to True to create a public link
+        share=True,  # Set to True to create a public link
         server_name="127.0.0.1",  # Makes it accessible on your network
         server_port=7860
     )
