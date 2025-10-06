@@ -1,5 +1,6 @@
 # RAG - Retrieval Augmented Generation
 
+- THIS PROJECT is a music recomendation system. ex. you could ask the system to play you sad songs because your GF broke up with you
 - User prompts are submitted to a retrieval system. Prompts are converted to vector embeddings which run through a pre-processed knowledge repo, which then returns the most relavent results.
 - AKA this process hydrates your LLM with relavent info
 
